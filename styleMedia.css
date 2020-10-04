@@ -81,7 +81,7 @@
 
 header{
   position: relative;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,6 +250,7 @@ header::before{
 .contents{
   width: 90%;
   text-align: center;
+  margin-top: 50px;
 }
 
 .H_catch{
