@@ -75,12 +75,13 @@
   position: fixed;
   top: 25px;
   left: 20px;
+  letter-spacing: 4px;
   z-index: 10;
 }
 
 header{
   position: relative;
-  height: 100vh;
+  height: 90vh;
 }
 
 header::before{
@@ -119,7 +120,7 @@ header .toggle{
   height: 30px;
   position: fixed;
   top: 40px;
-  right: 20px;
+  right: 10px;
   z-index: 10;
 }
 
@@ -185,6 +186,7 @@ header .toggle span:nth-child(2){
 .H_nav div{
   display: flex;
   text-align: center;
+  margin-top: -100px;
 }
 
 .H_nav ul{
@@ -220,7 +222,7 @@ header .toggle span:nth-child(2){
   align-self: center;
   justify-content: center;
   position: absolute;
-  bottom: 150px;
+  bottom: 180px;
 }
 
 .snsList li{
@@ -245,10 +247,10 @@ header .toggle span:nth-child(2){
 header .H_catch{
   position: absolute;
   top: 25%;
-  left: 20%;
+  left: 15%;
   font-size: 1.5em;
   display: inline-block;
-  width: 70%;
+  width: 80%;
 }
 
 .H_catch p{
@@ -266,7 +268,7 @@ header .H_catch{
 .H_img{
   position: absolute;
   bottom: 80px;
-  right: 50px;
+  right: 40px;
   width: 80%;
   overflow: hidden;
   background: #000000;
@@ -410,7 +412,7 @@ header .H_catch{
 /* main */
 /* About_Coffee */
 .About_Coffee{
-  padding: 40px 40px 0 40px;
+  padding: 0px 40px 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
