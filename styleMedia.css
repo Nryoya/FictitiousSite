@@ -260,14 +260,12 @@ header .H_catch{
 }
 
 .H_catch p:nth-child(2){
-  position: absolute;
-  left: 65px;
-  top: 68px;
+  margin-top: 20px;
 }
 
 .H_img{
   position: absolute;
-  bottom: 80px;
+  bottom: 100px;
   right: 40px;
   width: 80%;
   overflow: hidden;
@@ -558,14 +556,6 @@ header .H_catch{
   transition-delay: .3s;
 }
 
-/* map */
-.map{
-  width: 100%;
-}
-
-.map img{
-  width: 100%;
-}
 
 /* footer */
 footer{
@@ -595,7 +585,7 @@ footer{
 }
 
 .footer img{
-  width: 350px;
+  width: 300px;
   margin-top: 40px;
 }
 
