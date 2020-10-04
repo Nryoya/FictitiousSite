@@ -81,7 +81,7 @@
 
 header{
   position: relative;
-  height: 90vh;
+  height: 80vh;
 }
 
 header::before{
@@ -247,10 +247,9 @@ header .toggle span:nth-child(2){
 header .H_catch{
   position: absolute;
   top: 25%;
-  left: 15%;
+  left: 18%;
   font-size: 1.5em;
   display: inline-block;
-  width: 80%;
 }
 
 .H_catch p{
@@ -266,8 +265,8 @@ header .H_catch{
 .H_img{
   position: absolute;
   bottom: 100px;
-  right: 40px;
-  width: 80%;
+  right: 45px;
+  width: 90%;
   overflow: hidden;
   background: #000000;
 }
