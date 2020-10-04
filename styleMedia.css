@@ -82,6 +82,9 @@
 header{
   position: relative;
   height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header::before{
@@ -115,7 +118,7 @@ header::before{
   }
 }
 
-header .toggle{
+.toggle{
   width: 60px;
   height: 30px;
   position: fixed;
@@ -124,25 +127,25 @@ header .toggle{
   z-index: 10;
 }
 
-header .toggle:hover{
+.toggle:hover{
   cursor: pointer;
 }
 
-header .toggle span{
+.toggle span{
   position: absolute;
   background: #333;
   height: 2px;
   border-radius: 5px;
 }
 
-header .toggle span:nth-child(1){
+.toggle span:nth-child(1){
   width: 40px;
   top: 0;
   transform: rotate(0deg);
   transition: .6s;
 }
 
-header .toggle span:nth-child(2){
+.toggle span:nth-child(2){
   width: 20px;
   top: 15px;
   transform: rotate(0deg);
@@ -244,10 +247,12 @@ header .toggle span:nth-child(2){
   color: darkblue;
 }
 
-header .H_catch{
-  position: absolute;
-  top: 25%;
-  left: 18%;
+.contents{
+  width: 90%;
+  text-align: center;
+}
+
+.H_catch{
   font-size: 1.5em;
   display: inline-block;
 }
@@ -256,19 +261,15 @@ header .H_catch{
   display: inline-block;
   font-weight: bold;
   font-size: 1.2em;
-}
-
-.H_catch p:nth-child(2){
-  margin-top: 20px;
-}
+  text-align: center;
+  width: 100%;
+} 
 
 .H_img{
-  position: absolute;
-  bottom: 100px;
-  right: 45px;
   width: 90%;
   overflow: hidden;
-  background: #000000;
+  margin-top: 30px;
+  display: inline-block;
 }
 
 .H_img img{
