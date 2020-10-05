@@ -247,6 +247,7 @@ header .H_catch{
   left: 30px;
   font-size: 2em;
   width: 40%;
+  z-index: 3;
 }
 
 .H_catch p{
