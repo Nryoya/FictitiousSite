@@ -81,7 +81,8 @@
 
 header{
   position: relative;
-  height: 90vh;
+  height: 80vh;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,10 +90,12 @@ header{
 
 header::before{
   content: "";
-  background: linear-gradient(125deg, rgba(158, 158, 158, 0.1) 50%, #fff 50%);
+  background: rgba(207, 92, 25, 0.3);
   position: absolute;
-  width: 100%;
-  height: 100vh;
+  top: 20px;
+  left: 20px;
+  width: 50%;
+  height: 35vh;
   z-index: -2;
   /* animation: gradient 100s 5s ease-in-out infinite; */
 }
@@ -261,14 +264,13 @@ header::before{
 .H_catch p{
   display: inline-block;
   font-weight: bold;
-  font-size: 1.2em;
-  text-align: center;
+  font-size: 1.3em;
   width: 100%;
 } 
 
 .H_img{
-  width: 90%;
-  overflow: hidden;
+  width: 100%;
+  /* overflow: hidden; */
   margin-top: 70px;
   display: inline-block;
 }
@@ -411,7 +413,8 @@ header::before{
 /* main */
 /* About_Coffee */
 .About_Coffee{
-  padding: 0px 40px 0 40px;
+  margin-top: -60px;
+  padding: 0px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
